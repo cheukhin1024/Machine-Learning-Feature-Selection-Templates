@@ -9,6 +9,10 @@ from datetime import datetime
 
 #custom file name. 
 #Open a file named "People". It includes different people names and their images. 
+#This is the image URL: https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1098,format=auto/sites/default/files/styles/1200x800/public/d8/images/canvas/2021/02/18/404ed5bb-de13-49fc-8603-95f19ac376cf_f67f50f3.png?itok=vBVJgt3T&v=1613620269
+#Please save the image and put it into the file called "People"
+
+#This is my personal computer file path
 path = 'C:/Users/User/FaceRecognitionProject/People'
 
 images =[]
