@@ -1,5 +1,5 @@
 #"Vincenzo" is the hottest 2021 South Korean Netflix TV series
-#This project is to use Face Recognition is count how many times Vincenzo (Song Joong Ki) appear
+#This project is to use Face Recognition is count how many times Vincenzo (Song Joong Ki) appear in the trailer.
 
 import cv2
 import numpy as np
