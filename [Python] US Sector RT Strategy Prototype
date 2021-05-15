@@ -1,3 +1,6 @@
+#Please run the following code on QuantConnect
+#Don't naviely run the strategy and believe this can make money. No one will share the robust and profitable strategy. No one
+
 import pandas as pd
 from datetime import datetime
 
