@@ -4,8 +4,10 @@
 
 def featImpMDA(clf,X,y,n_splits=10):
    # feat importance based on OOS score reduction
+   
    from sklearn.metrics import log_loss
    from sklearn.model_selection._split import KFold
+   
    cvGen=KFold(n_splits=n_splits)
    scr0,scr1=pd.Series(),pd.DataFrame(columns=X.columns)
    for i,(train,test) in enumerate(cvGen.split(X=X)):
