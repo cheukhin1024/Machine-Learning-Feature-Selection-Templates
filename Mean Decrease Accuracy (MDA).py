@@ -2,6 +2,9 @@
 #first, it fits a model and computes its cross-validated performance; 
 #second, it computes the cross-validated performance of the same fitted model, with the only difference that it shuffles the observations associated with one of the features.
 
+import numpy as np
+import pandas as pd
+
 def featImpMDA(clf,X,y,n_splits=10):
    # feat importance based on OOS score reduction
    
