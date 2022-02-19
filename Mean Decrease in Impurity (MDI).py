@@ -23,6 +23,7 @@ def featImpMDI(fit,featNames):
 
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import BaggingClassifier
+
 X,y=getTestData(40,5,30,10000,sigmaStd=.1)
 clf=DecisionTreeClassifier(criterion=‘entropy’,max_features=1,
   class_weight=‘balanced’,min_weight_fraction_leaf=0)
