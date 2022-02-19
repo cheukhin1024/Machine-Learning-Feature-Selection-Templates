@@ -5,6 +5,8 @@
 #On the other hand, mean gini-gain in local splits, is not necessarily what is most useful to measure, in contrary to change of overall model performance.
 #Gini importance is overall inferior to (permutation based) variable importance as it is relatively more biased, more unstable and tend to answer a more indirect question.
 
+import pandas as pd
+
 def featImpMDI(fit,featNames):
   # feat importance based on IS mean impurity reduction
   df0={i:tree.feature_importances_ for i,tree in \
