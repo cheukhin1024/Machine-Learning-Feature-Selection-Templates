@@ -2,7 +2,7 @@
 
 
 ## Description
-This project is to provide the machine learning codes that most machine learning python packages don't provide, such as Sckit-learn, PyTorch, TensorFlow.
+This project is to provide the machine learning codes that most machine learning python packages (eg. Sckit-learn, PyTorch, TensorFlow) don't provide.
 
 
 ###### Mean Decrease Accuracy (MDA).py
